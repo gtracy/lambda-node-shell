@@ -1,0 +1,25 @@
+{
+  "name": "lambda-node-shell",
+  "version": "0.1.0",
+  "description": "Project shell for a Node app running on lambda",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gtracy/lambda-node-shell.git"
+  },
+  "author": "Greg Tracy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gtracy/lambda-node-shell/issues"
+  },
+  "homepage": "https://github.com/gtracy/lambda-node-shell#readme",
+  "dependencies": {
+    "aws-serverless-express": "^3.4.0",
+    "express": "^4.18.1",
+    "pino": "^8.6.1",
+    "pino-http": "^8.2.1"
+  }
+}
